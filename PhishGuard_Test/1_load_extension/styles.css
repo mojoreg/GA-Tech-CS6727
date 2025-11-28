@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 260px;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+.container {
+  text-align: center;
+  padding: 15px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#status-box {
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+#status-box.safe {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+#status-box.suspicious {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+#status-box.phishing {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+#status-box.neutral {
+  background-color: #e2e3e5;
+  color: #383d41;
+  border: 1px solid #d6d8db;
+}
+
+.note {
+  font-size: 11px;
+  color: #666;
+  margin-top: 10px;
+}
